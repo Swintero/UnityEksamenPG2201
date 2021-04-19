@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3393448925671727928}
   - component: {fileID: 3393448925671727931}
   - component: {fileID: 3393448925671727926}
+  - component: {fileID: 1341543956}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -89,12 +90,24 @@ MonoBehaviour:
   gravity: 16
   friction: 6
   jumpHeight: 6
-  trimpLimit: 5
+  rampSlideLimit: 5
   slopeLimit: 45
   additiveJump: 1
   autoJump: 1
   clampGroundSpeed: 0
   disableBunnyHopping: 0
+--- !u!114 &1341543956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3393448925671727930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a027b2bde94d84d48bc60706f49fc9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3393448926269782975
 GameObject:
   m_ObjectHideFlags: 0
