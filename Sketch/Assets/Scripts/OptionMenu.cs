@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class VolumeSlider : MonoBehaviour
+public class OptionMenu : MonoBehaviour
 {
     public AudioMixer audioMixer;
 
@@ -14,4 +14,8 @@ public class VolumeSlider : MonoBehaviour
         audioMixer.SetFloat("Volume", Volume); 
     }
 
+    public void QualSet (int QualInd)
+    {
+        QualitySettings.SetQualityLevel(QualInd);
+    }
 }
