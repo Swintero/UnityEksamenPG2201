@@ -189,7 +189,7 @@ MonoBehaviour:
   groundLimit: 12
   airLimit: 1
   gravity: 16
-  friction: 6
+  friction: 10
   jumpHeight: 10
   rampSlideLimit: 5
   slopeLimit: 45
