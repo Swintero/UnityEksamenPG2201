@@ -6,6 +6,7 @@ TagManager:
   tags:
   - restartLevelPlane
   - goal
+  - checkpoint
   layers:
   - Default
   - TransparentFX
