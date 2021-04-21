@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class collisionHandler : MonoBehaviour
 {
+    
+
     private void OnCollisionEnter(Collision other)
     {
         switch (other.gameObject.tag)
@@ -31,5 +33,7 @@ public class collisionHandler : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
+
     
+
 }
