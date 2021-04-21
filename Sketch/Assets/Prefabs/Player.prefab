@@ -185,7 +185,7 @@ MonoBehaviour:
   jumpButton: Jump
   mouseSensitivity: 1
   groundAcceleration: 100
-  airAcceleration: 100
+  airAcceleration: 105
   groundLimit: 12
   airLimit: 1
   gravity: 16
