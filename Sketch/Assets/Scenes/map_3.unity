@@ -1124,7 +1124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4103945
+      value: 0.41782263
       objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_LocalScale.z
@@ -1132,7 +1132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.47075215
+      value: 0.4686
       objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4912,6 +4912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: a01HalfBlock_YuME (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 135906, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
+      propertyPath: m_TagString
+      value: menu
+      objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -5388,7 +5392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5908825
+      value: 0.57329154
       objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_LocalScale.z
@@ -5396,7 +5400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.025541628
+      value: -0.0264
       objectReference: {fileID: 0}
     - target: {fileID: 442850, guid: fa911294c080ba947bd5abaf4b8d9670, type: 3}
       propertyPath: m_LocalPosition.y
