@@ -35,6 +35,10 @@ public class collisionHandler : MonoBehaviour
                 specificLevel3();
                 break;
 
+            case "menu":
+                loadMenu();
+                break;
+
         }
     }
 
@@ -71,5 +75,10 @@ public class collisionHandler : MonoBehaviour
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(4);
+    }
+    void loadMenu() {
+
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(0);
     }
 }
