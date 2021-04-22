@@ -209,3 +209,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a027b2bde94d84d48bc60706f49fc9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnPosition: {x: 0, y: 0, z: 0}
