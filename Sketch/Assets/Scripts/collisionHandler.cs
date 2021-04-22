@@ -18,6 +18,8 @@ public class collisionHandler : MonoBehaviour
             case "goal":
                 LoadNextLevel();
                 break;
+
+           
         }
     }
 
