@@ -23,7 +23,18 @@ public class collisionHandler : MonoBehaviour
                 LoadNextLevel();
                 break;
 
-           
+            case "loadLevel1":
+                specificLevel1();
+                break;
+
+            case "loadLevel2":
+                specificLevel2();
+                break;
+
+            case "loadLevel3":
+                specificLevel3();
+                break;
+
         }
     }
 
@@ -44,7 +55,21 @@ public class collisionHandler : MonoBehaviour
         this.transform.position = respawnPosition;
     }
 
+    void specificLevel1()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(2);
+    }
 
-    
+    void specificLevel2()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(3);
+    }
 
+    void specificLevel3()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(4);
+    }
 }
