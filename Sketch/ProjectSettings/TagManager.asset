@@ -12,6 +12,7 @@ TagManager:
   - loadLevel1
   - loadLevel2
   - loadLevel3
+  - menu
   layers:
   - Default
   - TransparentFX
