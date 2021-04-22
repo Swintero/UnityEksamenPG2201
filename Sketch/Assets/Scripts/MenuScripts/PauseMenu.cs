@@ -59,6 +59,11 @@ public class PauseMenu : MonoBehaviour
         PausedGame = true;
     }
 
+    public void RestartLevel()
+    {
+        Debug.Log("Restarting Level");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     public void GameExit()
     {
         Debug.Log("Exiting");
