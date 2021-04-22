@@ -9,6 +9,9 @@ TagManager:
   - checkpoint
   - tutorialText1
   - text
+  - loadLevel1
+  - loadLevel2
+  - loadLevel3
   layers:
   - Default
   - TransparentFX
