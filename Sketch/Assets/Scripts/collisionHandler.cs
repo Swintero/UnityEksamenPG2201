@@ -5,14 +5,18 @@ using UnityEngine;
 
 public class collisionHandler : MonoBehaviour
 {
-    
 
+    public Vector3 respawnPosition;
     private void OnCollisionEnter(Collision other)
     {
         switch (other.gameObject.tag)
         {
             case "restartLevelPlane":
                 ReloadLevel();
+                break;
+
+            case "checkpoint":
+                RestartCheckpoint();
                 break;
 
             case "goal":
@@ -35,6 +39,11 @@ public class collisionHandler : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
+    void RestartCheckpoint()
+    {
+        this.transform.position = respawnPosition;
+    }
+
 
     
 
