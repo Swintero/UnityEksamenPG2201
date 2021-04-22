@@ -7,6 +7,8 @@ TagManager:
   - restartLevelPlane
   - goal
   - checkpoint
+  - tutorialText1
+  - text
   layers:
   - Default
   - TransparentFX
