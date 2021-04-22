@@ -9,6 +9,9 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseUI;
 
+    CursorLockMode desireMode;
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -22,7 +25,9 @@ public class PauseMenu : MonoBehaviour
             else
             {
                 GamePause();
+                gameUI();
             }
+           
         }
 
         //Stop camera
@@ -49,14 +54,27 @@ public class PauseMenu : MonoBehaviour
         pauseUI.SetActive(false);
         Time.timeScale = 1f;
         PausedGame = false;
+        Cursor.visible = false;
+        desireMode = CursorLockMode.Confined;
     }
 
 
     void GamePause()
     {
-        pauseUI.SetActive(true);
+        
         Time.timeScale = 0f;
         PausedGame = true;
+        desireMode = CursorLockMode.None;
+        {
+            Cursor.lockState = desireMode;
+        }
+        
+    }
+
+    void gameUI()
+    {
+          
+        pauseUI.SetActive(true);
     }
 
     public void RestartLevel()
