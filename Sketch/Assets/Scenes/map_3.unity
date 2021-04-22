@@ -4024,7 +4024,12 @@ PrefabInstance:
     - target: {fileID: 1903721683253320989, guid: ead2d6f15a341a940b5f3a6bca627b0f,
         type: 3}
       propertyPath: m_MaxValue
-      value: 40
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903721683253320989, guid: ead2d6f15a341a940b5f3a6bca627b0f,
+        type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1903721683576866425, guid: ead2d6f15a341a940b5f3a6bca627b0f,
         type: 3}
